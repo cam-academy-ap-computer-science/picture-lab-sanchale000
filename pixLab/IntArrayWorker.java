@@ -100,5 +100,37 @@ public class IntArrayWorker
       }
     }
   }
+  public int getCount(int target) 
+  {
+	  for (int row = 0; row < matrix.length; row++)
+	    {
+	      for (int col = 0; col < matrix[0].length; col++)
+	      {
+	    	  if (matrix[row][col] == target) 
+	    	  {
+	    		target++;  
+	    	  }
+	      }
+	    }
+	  return target;
+  }
+  public int getLargest()
+  {
+	  int large = 0;
+	  int temp = 0;
+  
+	  for (int row = 0; row < matrix.length; row++)
+	    {
+	      for (int col = 0; col < matrix[0].length; col++)
+	      {
+	    	  temp = matrix[row][col];
+	    	  if ( temp > large)
+	    	  {
+	    		  large = temp;
+	          }
+	      } 
+        }
+	  return large;
+  }
  
 }
