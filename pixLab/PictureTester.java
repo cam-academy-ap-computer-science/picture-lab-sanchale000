@@ -130,11 +130,11 @@ public class PictureTester {
 		// testMirrorGull();
 		// testMirrorDiagonal();
 		// testCollage();
-		// testCustomCollage();
+		 testCustomCollage();
 		// testCopy();
-		// testCopyCustom();
-		// testEdgeDetection();
-		testEdgeDetection2();
+		//testCopyCustom();
+		//testEdgeDetection();
+		//testEdgeDetection2();
 		// testChromakey();
 		// testEncodeAndDecode();
 		// testGetCountRedOverValue(250);
