@@ -93,13 +93,7 @@ public class PictureTester {
 		canvas.createCustomCollage();
 		canvas.explore();
 	}
-	public static void test3CustomCollage() {
-		Picture canvas = new Picture("images\\640x480.jpg");
-		canvas.explore();
-		canvas.createCustomCollage();
-		canvas.explore();
-	}
-
+	
 	/** Method to test edgeDetection */
 	public static void testEdgeDetection() {
 		Picture swan = new Picture("images\\swan.jpg");
